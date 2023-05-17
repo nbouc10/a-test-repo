@@ -6,9 +6,9 @@
   weatherData = read.csv(file="data/Lansing2016NOAA.csv");
   
   #### Labels for the facets of the plot
-  windLabels = c(Low = "Light Winds",
-                 Medium = "Medium Winds",
-                 High = "Strong Winds");
+  windLabels = c(Low = "Light Wind",
+                 Medium = "Medium Wind",
+                 High = "Strong Wind");
   
   #### Boxplots of Change in Temperature vs. Wind Direction 
   #           at different wind speeds
